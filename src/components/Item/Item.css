@@ -1,0 +1,21 @@
+.item {
+	position: relative;
+	flex: 1 1 45%;
+	height: auto;
+	border: 2px solid #0026ff;
+	padding: 10px 20px;
+	color: #0026ff;
+	line-height: 1.5em;
+}
+
+.price {
+	position: absolute;
+	right: 1.5%;
+	bottom: 13%;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.name{
+	max-width: 90%;
+}

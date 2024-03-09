@@ -1,0 +1,38 @@
+body {
+	overflow-x: hidden;
+}
+
+.App {
+	width: 100vw;
+	min-height: 100vh;
+	position: relative;
+}
+
+.wrapper {
+	max-width: 85%;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	padding: 0 20px;
+}
+
+.pagination-wrapper {
+	padding: 40px 0;
+}
+
+.loader-wrapper {
+	position: fixed;
+	width: 85%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 99;
+	background-color: #fff;
+}
+
+input {
+	padding: 5px 8px;
+	color: #0026ff;
+	font-size: 16px;
+}
